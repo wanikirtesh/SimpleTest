@@ -15,6 +15,6 @@ public class StringUtil {
         while (inpStr.contains("  ")){
             inpStr = inpStr.replace("  "," ");
         }
-        return inpStr;
+        return inpStr.trim();
     }
 }
