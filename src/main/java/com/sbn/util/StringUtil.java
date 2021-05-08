@@ -10,4 +10,11 @@ public class StringUtil {
         }
         return opArray;
     }
+
+    public static String removeExtraSpaces(String inpStr) {
+        while (inpStr.contains("  ")){
+            inpStr = inpStr.replace("  "," ");
+        }
+        return inpStr;
+    }
 }

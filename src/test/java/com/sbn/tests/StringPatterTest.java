@@ -27,5 +27,17 @@ public class StringPatterTest {
         Assert.assertEquals(actual,expected,"did not matched");
     }
 
+    @DataProvider(name = "statements")
+    public Object[][] getStatements(){
+        String[][] retStr = {{"My     Name   is Kirtesh     ","My Name is Kirtesh"}};
+        return retStr;
+    }
+
+    @Test(dataProvider = "statements")
+    public void testForeRemovingExtraSpaces(String inpStr,String expected){
+        String actual = StringUtil.removeExtraSpaces(inpStr);
+        Assert.assertEquals(actual,expected,"Did not matched");
+    }
+
 
 }
