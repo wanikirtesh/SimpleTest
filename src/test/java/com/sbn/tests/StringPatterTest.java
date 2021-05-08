@@ -13,7 +13,7 @@ public class StringPatterTest {
     public Object[][] getInputs(){
         Object[][] returnObj = {{"Hi", Arrays.asList("Hi","iH")},
                 {"Hello", Arrays.asList("Hello","elloH","lloHe","loHel","oHell")},
-                {"Bye",Arrays.asList("yeB","eBy","Bye")}
+                {"Bye",Arrays.asList("Bye","yeB","eBy")}
         };
         return returnObj;
     }

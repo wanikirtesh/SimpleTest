@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class AreaCalculationTest {
     @DataProvider(name = "dp")
     public Object[][] getData(){
-        Integer[][] x ={{1,2,2},{2,2,4},{7,3,21},{5,6,29}};
+        Integer[][] x ={{1,2,2},{2,2,4},{7,3,21},{5,6,30}};
         return x;
     }
     @Test(dataProvider = "dp")
