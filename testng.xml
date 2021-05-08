@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Utility Test">
+    <test name="String Util Test">
+        <classes>
+            <class name="com.sbn.tests.StringPatterTest"></class>
+        </classes>
+    </test>
+    <test name="Numeric Util Test">
+        <classes>
+            <class name="com.sbn.tests.AreaCalculationTest"></class>
+        </classes>
+    </test>
+
+</suite>
