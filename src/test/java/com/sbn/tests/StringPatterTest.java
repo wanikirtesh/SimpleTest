@@ -11,11 +11,10 @@ public class StringPatterTest {
 
     @DataProvider(name = "inputs")
     public Object[][] getInputs(){
-        Object[][] returnObj = {{"Hi", Arrays.asList("Hi","iH")},
+        return new Object[][]{{"Hi", Arrays.asList("Hi","iH")},
                 {"Hello", Arrays.asList("Hello","elloH","lloHe","loHel","oHell")},
                 {"Bye",Arrays.asList("Bye","yeB","eBy")}
         };
-        return returnObj;
     }
 
 
@@ -29,8 +28,7 @@ public class StringPatterTest {
 
     @DataProvider(name = "statements")
     public Object[][] getStatements(){
-        String[][] retStr = {{"My     Name   is Kirtesh     ","My Name is Kirtesh"}};
-        return retStr;
+        return new String[][]{{"My     Name   is Kirtesh     ","My Name is Kirtesh"}};
     }
 
     @Test(dataProvider = "statements")

@@ -2,12 +2,12 @@
 <suite name="My Utility Test">
     <test name="String Util Test">
         <classes>
-            <class name="com.sbn.tests.StringPatterTest"></class>
+            <class name="com.sbn.tests.StringPatterTest"/>
         </classes>
     </test>
     <test name="Numeric Util Test">
         <classes>
-            <class name="com.sbn.tests.AreaCalculationTest"></class>
+            <class name="com.sbn.tests.AreaCalculationTest"/>
         </classes>
     </test>
 
