@@ -3,7 +3,6 @@ package com.sbn.selenium.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import sun.plugin.dom.exception.InvalidStateException;
 
 public class BasePage {
     WebDriver driver;
