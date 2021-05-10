@@ -10,5 +10,10 @@
             <class name="com.sbn.tests.AreaCalculationTest"/>
         </classes>
     </test>
-
+    <test name="EMS Tests">
+        <classes>
+            <class name="com.sbn.selenium.tests.LoginTest"></class>
+            <class name="com.sbn.selenium.tests.EmployeeTest"></class>
+        </classes>
+    </test>
 </suite>
