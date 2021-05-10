@@ -16,10 +16,15 @@ public class BasePage {
 
     public void logOut() {
         driver.findElement(By.xpath("//a[text()='Sign Out']")).click();
+        driver.quit();
     }
 
     public EmployeeEditPage goToEmployeeEditPage() throws Exception {
         ((JavascriptExecutor)driver).executeScript("arguments[0].click()",driver.findElement(By.xpath("//a[@id='edEmp']")));
         return new EmployeeEditPage(driver);
+    }
+
+    public void quit() {
+        driver.quit();
     }
 }

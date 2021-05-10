@@ -16,4 +16,8 @@ public class LoginPage {
         driver.findElement(By.xpath("//button[text()='Sign in']")).click();
         return new BasePage(driver);
     }
+
+    public void quit() {
+        driver.quit();
+    }
 }
