@@ -32,10 +32,8 @@ public class Login extends BaseTest {
     @And("User Logging Out")
     public void userLoggingOut() {
         basePage.logOut();
+       // basePage.quit();
     }
 
-    @After
-    public void tearDown(){
-        //loginPage.quit();
-    }
+
 }

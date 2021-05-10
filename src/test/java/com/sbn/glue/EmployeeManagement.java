@@ -34,6 +34,7 @@ public class EmployeeManagement extends BaseTest {
     @Then("I should get correct list of employee as per database")
     public void iShouldGetCorrectListOfEmployeeAsPerDatabase() throws Exception {
         employeeEditPage.validateEmployeeList();
+        employeeEditPage.quit();
     }
 
     @After
